@@ -30,9 +30,7 @@ Note: your submission is supposed to be fully reproducible, i.e. the TA and I wi
 
 
 For the submission: submit your solution in an **R Markdown file** and (just for insurance) submit the corresponding html (or Word) file with it. 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 #### Due: 2/17/2022 before 11:59pm. Submit in Canvas (file upload).
 
@@ -57,7 +55,7 @@ Note: your submission is supposed to be fully reproducible, i.e. the TA and I wi
 
 
 For the submission: submit your solution in an **R Markdown file** and (just for insurance) submit the corresponding html (or Word) file with it. 
-gapMinder <- read.csv("gapminder-5060.csv",)
+
 ```{r}
 gapMinder <- read.csv("gapminder-5060.csv",)
 ```
@@ -65,7 +63,7 @@ gapMinder <- read.csv("gapminder-5060.csv",)
 summary(gapMinder)
 ```
 ```{r}
-subset_gapMinder <- subset(gapMinder, country %in% c("United States", "Canada", "Australia"))
+subset_gapMinder <- subset(gapMinder, country %in% c("United States"))
 
 ```
 
